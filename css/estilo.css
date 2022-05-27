@@ -1,0 +1,191 @@
+body {
+  background-image: url(../Imagenes/fondo.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+
+h1 {
+  color: #ECEFF1;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: red
+  font-family: Tangerine, cursive;
+}
+h1:hover{width: 1px;}
+
+header {
+background: rgba(191, 54, 12,0.7);
+width: 100%;
+clear: both;
+content: ´´ ;
+display: table;
+}
+
+.recetas{
+  width: 900px;
+  margin: 0 auto;
+
+}
+nav{
+  float: right;
+}
+ul{list-style: none;margin: 0;padding: 0;}
+nav ul li {
+  list-style: none;
+  margin-left: 35px;
+  padding: 10px ;
+float: right;
+  position: relative;
+}
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+}
+nav ul li a:hover{
+  background-color: black;
+
+}
+
+object{width: auto;;}
+section {
+  float: left;
+  width: 100%;
+}
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  bottom: 30px;
+  right: 30px;
+border-radius: 50px;
+}
+.btn-wsp:hover{width: 5%;}
+
+h2 {
+  color: #ECEFF1;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: underline;
+}
+
+ h3 {
+   color: #ECEFF1;
+   font-size: x-large;
+   text-align: center;
+   text-decoration: underline;
+ }
+ h4 {
+   color: #ECEFF1;
+   font-size: large;
+   text-align: left;
+   text-decoration: underline;
+
+ }
+
+ .btn-ins{
+   display: flex;
+   justify-content: flex-start;
+   position: static;
+   width: 55px;
+   bottom: 30px;
+   right: 30px;
+ border-radius: 50px;
+ background-color: white;
+
+ }
+.btn-fb {
+  display: flex;
+  justify-content:center;
+
+  width: 55px;
+}
+
+.Ingredientes{
+  margin: 50px;;
+  border: 2px; solid;
+  margin-left: 200px;
+text-indent: 1.5em;
+margin-right: 200px;
+  border-color: black;
+background-color: rgba(191, 54, 12, 0.5);
+border-left: 200px;
+color:  #ECEFF1;
+}
+.Imagen{display: flex;
+justify-content: center;}
+
+.Imagen:hover{
+filter:grayscale(80%);
+  }
+
+.columna{
+
+ border: 2px solid black;
+text-indent: 1.5em;
+color: #ECEFF1;
+}
+.video{display: flex;
+justify-content: center;}
+
+.Procedimiento {
+  border: 2px; solid;
+  margin-left: 40px;
+margin-right: 40px;
+  border-color: black;
+background-color: rgba(191, 54, 12, 0.5);
+border-left: 200px;
+}
+.texto{display: flex;
+  justify-content: flex-start;
+  border: 2px; solid;
+  color: #ECEFF1;
+  text-indent: 1.5em;
+margin-left: 40px;
+margin-right: 40px;
+border-color: black;
+background-color: rgba(191, 54, 12, 0.5);
+border-left: 200px;}
+
+.container-form{width: 100%;
+max-width: 1100px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap: 50px;
+margin-top: 90px;}
+
+.container-form h2{margin-bottom: 15px;
+font-size: 35px;}
+
+.container-form p{font-size: 17px;
+line-height: 1.6;
+margin-bottom: 30px;}
+
+.Formulario{
+  width: 400px;
+  background-color: rgba(191, 54, 12, 0.5);
+margin: auto;
+margin-top: 100px;
+border-radius: 10px;
+padding-left: 10px;
+padding-right: 10px;
+
+
+}
+.text{width: 100%;
+padding: 100px;
+background: #24303c;
+border-radius: 4px;
+margin-bottom: 50px;
+border: 1px solid black;
+font-family: monospace;
+font-size: 100px;}
+
+
+.enviar{font-family: serif;
+color: white;}
